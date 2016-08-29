@@ -46,8 +46,8 @@ PostgreSQL is now running. By creating another PostgreSQL user as per your local
 
 ```bash
 createuser -s -U postgres --interactive
-```
 Enter name of role to add: myUsualArchLoginName
+```
 (Substitute myUsualArchLoginName for your Arch login name.)
 
 Now you can create databases and access them as an Arch user. Here's an example:
@@ -62,7 +62,6 @@ psql -d myDatabaseName
 ```
 Since you have yet to create any tables and input any data into this database, just list all the database's users and their permissions:
 
-\du
 You should have two users: postgres and your Arch login user.
 
 Type \q or CTRL+d to exit the PostgreSQL database shell back to your command line.
@@ -70,10 +69,9 @@ Type \q or CTRL+d to exit the PostgreSQL database shell back to your command lin
 Some psql commands to keep handy
 command	explanation
 \c databaseName	connect to a particular database
-\du	list all users and their permission levels
-\dt	shows summary information about all tables in the current database
+\u	list all users and their permission levels
+\t	shows summary information about all tables in the current database
 \q or CTRL+d	exit/quit the psql shell
-
 
 Configuring PostgreSQL
 
