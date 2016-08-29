@@ -80,4 +80,4 @@ The PostgreSQL database server configuration file is postgresql.conf. This file 
 Note: By default this folder will not even be browseable (or searchable) by a regular user, if you are wondering why find or locate is not finding the conf files, this is the reason.
 
 This is just a copy for myself. If you find it helpful, say thanks to the author:
-[Thanks to:](netarky.com)
+Thanks to: [netarky.com](netarky.com)
